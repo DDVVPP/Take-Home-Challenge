@@ -25,7 +25,7 @@ describe('App', () => {
     await waitFor(() => {
       // feel free to update this test or delete it if tests like this aren't
       // useful for your development process
-      const status = screen.getByText('FIXME: add your solution here!');
+      const status = screen.getByText('Tic Tac Toe');
       expect(status).toBeInTheDocument();
     });
   });
